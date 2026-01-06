@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="closet1">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="fist" thumbpos="across"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="l"/>
+    <handconstellation contact="close">
+      <location_bodyarm location="shouldertop"/>
+    </handconstellation>
+    <directedmotion curve="l" direction="ir"/>
+    <directedmotion curve="l" direction="ol"/>
+    <directedmotion curve="l" direction="ir"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

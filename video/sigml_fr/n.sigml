@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="n">
+  <sign_manual>
+    <!-- Forme : Index et majeur tendus (chiffre 2), autres doigts fermés, pouce sur annulaire -->
+    <handconfig handshape="finger23" thumbpos="across"/>
+    
+    <!-- Orientation : Doigts vers la GAUCHE (vers le corps) comme pour le M -->
+    <handconfig extfidir="l"/>
+    
+    <!-- Orientation : Paume vers SOI (l = left) -->
+    <!-- Doigts à gauche + paume à gauche = paume vers le corps -->
+    <handconfig palmor="l"/>
+    
+    <!-- Position : Devant la poitrine -->
+    <location_bodyarm location="chest"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

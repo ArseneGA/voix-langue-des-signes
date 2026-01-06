@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sigml>
+        <hns_sign gloss="w">
+                <hamnosys_nonmanual/>
+                <hamnosys_manual>
+                        <!-- Forme définie par vous -->
+                        <hamfinger2345/>
+                        <hamthumbacrossmod/>
+                        <hampinky/>
+                        <hamdoublehooked/>
+                        
+                        <!-- Orientation ajoutée -->
+                        <hamextfingeru/> <!-- Doigts vers le haut -->
+                        <hampalmd/>      <!-- Paume vers le spectateur -->
+                </hamnosys_manual>
+        </hns_sign>
+</sigml>

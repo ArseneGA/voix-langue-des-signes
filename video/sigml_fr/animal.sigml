@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="animal1">
+  <sign_manual>
+    <handconfig handshape="flat" thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="dl"/>
+    <location_bodyarm contact="close" location="forehead" side="right_at">
+      <location_hand location="nail" side="palmar"/>
+    </location_bodyarm>
+    <rpt_motion repetition="fromstart">
+      <circularmotion axis="dl"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

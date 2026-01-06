@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="theatre1">
+  <sign_manual both_hands="true" lr_symm="true" oi_symm="true" outofphase="true" ud_symm="true">
+    <handconfig bend3="bent" handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="ul"/>
+    <handconfig palmor="dl"/>
+    <split_location>
+      <location_bodyarm contact="close" location="shoulders" side="right_at"/>
+      <location_bodyarm contact="close" location="shoulders" side="left_at"/>
+    </split_location>
+    <rpt_motion repetition="continue">
+      <seq_motion>
+        <directedmotion direction="uo"/>
+        <directedmotion curve="d" direction="di" slow="true"/>
+      </seq_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

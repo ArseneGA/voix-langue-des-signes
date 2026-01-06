@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="fair1">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at"/>
+    <par_motion>
+      <directedmotion direction="d"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="o"/>
+        <handconstellation contact="touch">
+          <location_hand location="thumbside"/>
+          <location_hand location="thumbside"/>
+        </handconstellation>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="artist1">
+  <sign_manual>
+    <sign_manual>
+      <handconfig handshape="finger2" mainbend="round" thumbpos="out"/>
+      <handconfig extfidir="ur"/>
+      <handconfig palmor="l"/>
+      <location_bodyarm contact="close" location="shouldertop" side="right_at"/>
+      <directedmotion direction="d"/>
+    </sign_manual>
+    <sign_manual>
+      <split_handconfig>
+        <handconfig handshape="finger23spread"/>
+        <handconfig handshape="flat" thumbpos="out"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="u" palmor="l"/>
+        <handconfig extfidir="ur" palmor="r"/>
+      </split_handconfig>
+      <split_location>
+        <location_bodyarm location="head" side="right_beside"/>
+        <location_bodyarm location="shoulders"/>
+      </split_location>
+      <par_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="finger23spread" mainbend="bent"/>
+        </tgt_motion>
+        <tgt_motion>
+          <directedmotion direction="dl"/>
+          <location_bodyarm contact="close" location="chest" second_location="shoulders"/>
+        </tgt_motion>
+      </par_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="coast1">
+  <sign_manual>
+    <sign_manual both_hands="true" lr_symm="true">
+      <handconfig handshape="finger2345" thumbpos="out"/>
+      <handconfig extfidir="o"/>
+      <handconfig palmor="d"/>
+      <handconstellation contact="close">
+        <location_bodyarm location="chest"/>
+      </handconstellation>
+      <par_motion>
+        <fingerplay/>
+        <directedmotion direction="o"/>
+        <seq_motion>
+          <directedmotion direction="u" size="small"/>
+          <directedmotion direction="d" size="small"/>
+          <directedmotion direction="u" size="small"/>
+        </seq_motion>
+      </par_motion>
+    </sign_manual>
+    <sign_manual>
+      <split_handconfig>
+        <handconfig handshape="flat" thumbpos="out"/>
+        <handconfig handshape="flat" thumbpos="out"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="ol" palmor="l"/>
+        <handconfig extfidir="r" palmor="d"/>
+      </split_handconfig>
+      <handconstellation contact="close">
+        <location_hand location="pinkyside"/>
+        <location_hand digits="5" location="nail" side="palmar"/>
+      </handconstellation>
+      <rpt_motion repetition="fromstart_several">
+        <par_motion>
+          <tgt_motion>
+            <changeposture/>
+            <handconfig extfidir="l" palmor="l"/>
+          </tgt_motion>
+          <tgt_motion>
+            <directedmotion direction="i" halt="true"/>
+            <handconstellation contact="touch">
+              <location_hand location="pinkyside"/>
+              <location_hand digits="5" location="nail" side="palmar"/>
+            </handconstellation>
+          </tgt_motion>
+        </par_motion>
+      </rpt_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": [
+        "stt\\lib\\slf4j-api-1.7.36.jar",
+        "stt\\lib\\slf4j-simple-1.7.36.jar",
+        "d:\\Desktop\\voix-langue-des-signes\\stt\\lib\\jna-5.7.0.jar",
+        "d:\\Desktop\\voix-langue-des-signes\\stt\\lib\\vosk-0.3.45.jar",
+        "d:\\Desktop\\voix-langue-des-signes\\stt\\lib\\Java-WebSocket-1.5.3.jar"
+    ]
+}
