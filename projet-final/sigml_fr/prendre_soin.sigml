@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="care1">
+  <sign_manual both_hands="true" lr_symm="true" oi_symm="true" ud_symm="true">
+    <handconfig handshape="pinchall" mainbend="bent"/>
+    <handconfig extfidir="u"/>
+    <split_handconfig>
+      <handconfig palmor="d" second_palmor="l"/>
+      <handconfig palmor="d" second_palmor="r"/>
+    </split_handconfig>
+    <handconstellation contact="close">
+      <location_bodyarm location="shoulders"/>
+    </handconstellation>
+    <rpt_motion repetition="fromstart_several">
+      <circularmotion axis="i" size="small" tense="true"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

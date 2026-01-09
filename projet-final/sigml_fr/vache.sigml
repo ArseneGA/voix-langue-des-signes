@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="cow1">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2" specialfingers="5" thumbpos="out"/>
+    <handconfig extfidir="u" second_extfidir="ul"/>
+    <handconfig palmor="dr"/>
+    <location_bodyarm contact="touch" location="forehead" side="right_beside">
+      <location_hand digits="1" location="tip"/>
+    </location_bodyarm>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

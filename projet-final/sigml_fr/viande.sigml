@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="meat1">
+  <sign_manual both_hands="true">
+    <split_handconfig>
+      <handconfig handshape="pinch12open"/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="ul" palmor="d" second_extfidir="o"/>
+      <handconfig extfidir="r" palmor="r"/>
+    </split_handconfig>
+    <location_hand contact="touch" digits="1" location="base" second_digits="2" second_location="base">
+      <location_hand digits="2" location="tip"/>
+    </location_hand>
+    <wristmotion motion="swinging"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

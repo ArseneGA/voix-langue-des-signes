@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="assiduous1">
+  <sign_manual both_hands="true">
+    <handconfig handshape="pinch12open"/>
+    <split_handconfig>
+      <handconfig extfidir="ul" palmor="l" second_extfidir="do"/>
+      <handconfig extfidir="do" palmor="r" second_extfidir="ur"/>
+    </split_handconfig>
+    <location_bodyarm contact="close" location="shoulders" side="right_at"/>
+    <directedmotion direction="r" size="big" slow="true"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

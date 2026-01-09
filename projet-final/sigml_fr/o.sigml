@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="o">
+  <sign_manual>
+    <!-- AJOUT ICI : mainbend="round" pour bien courber les phalanges et faire un cercle -->
+    <handconfig handshape="ceeall" mainbend="round"/> 
+    
+    <!-- On garde le contact pouce-doigts -->
+    <handconfig ringte="tip" thumbpos="opposed"/>
+
+    <!-- Reste inchangé car c'était bon -->
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="shouldertop" side="right_at"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

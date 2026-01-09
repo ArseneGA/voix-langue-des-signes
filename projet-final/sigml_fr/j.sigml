@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="j_variante_y">
+  <sign_manual>
+    <!-- Main Y : Pouce et Auriculaire levés (finger15), autres pliés -->
+    <!-- thumbpos="out" pour bien sortir le pouce -->
+    <handconfig handshape="finger2345" thumbpos="out" bend2="bent" bend3="bent" bend4="bent"/>
+    
+    <!-- Doigts vers le haut au départ -->
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    
+    <location_bodyarm location="chest"/>
+    
+    <!-- Rotation du poignet (twist) -->
+    <rpt_motion repetition="1">
+      <wristmotion motion="twisting"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

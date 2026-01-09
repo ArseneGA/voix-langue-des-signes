@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="craftsman1">
+  <sign_manual>
+    <sign_manual>
+      <handconfig handshape="finger2" mainbend="round" thumbpos="out"/>
+      <handconfig extfidir="ur"/>
+      <handconfig palmor="l"/>
+      <location_bodyarm contact="close" location="shouldertop" side="right_at"/>
+      <directedmotion direction="d"/>
+    </sign_manual>
+    <sign_manual>
+      <handconfig handshape="fist"/>
+      <handconfig extfidir="u"/>
+      <handconfig palmor="l"/>
+      <location_bodyarm contact="close" location="shoulders"/>
+      <rpt_motion repetition="fromstart_several">
+        <par_motion>
+          <directedmotion direction="i"/>
+          <tgt_motion>
+            <changeposture/>
+            <handconfig extfidir="u" palmor="l"/>
+            <location_bodyarm contact="touch" location="shoulders">
+              <location_hand digits="1" location="tip"/>
+            </location_bodyarm>
+          </tgt_motion>
+        </par_motion>
+      </rpt_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

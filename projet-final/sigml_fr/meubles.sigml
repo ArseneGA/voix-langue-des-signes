@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="furniture1">
+  <sign_manual>
+    <sign_manual both_hands="true">
+      <handconfig handshape="flat" thumbpos="across"/>
+      <handconfig extfidir="o"/>
+      <handconfig palmor="d"/>
+      <handconstellation contact="touch">
+        <location_bodyarm location="chest" side="right_at"/>
+      </handconstellation>
+      <tgt_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="o" palmor="l"/>
+        </tgt_motion>
+        <handconstellation contact="close"/>
+      </tgt_motion>
+    </sign_manual>
+    <sign_manual both_hands="true">
+      <handconfig handshape="flat" thumbpos="across"/>
+      <handconfig extfidir="o"/>
+      <handconfig palmor="d"/>
+      <handconstellation contact="touch">
+        <location_bodyarm location="chest"/>
+      </handconstellation>
+      <tgt_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="o" palmor="l"/>
+        </tgt_motion>
+        <handconstellation contact="close"/>
+      </tgt_motion>
+    </sign_manual>
+    <sign_manual both_hands="true">
+      <handconfig handshape="flat" thumbpos="across"/>
+      <handconfig extfidir="o"/>
+      <handconfig palmor="d"/>
+      <handconstellation contact="touch">
+        <location_bodyarm location="chest" side="left_at"/>
+      </handconstellation>
+      <tgt_motion>
+        <tgt_motion>
+          <changeposture/>
+          <handconfig extfidir="o" palmor="l"/>
+        </tgt_motion>
+        <handconstellation contact="close"/>
+      </tgt_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

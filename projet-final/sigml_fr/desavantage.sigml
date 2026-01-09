@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="disadvantage1">
+  <sign_manual>
+    <sign_manual>
+      <handconfig handshape="pinch12open" mainbend="bent"/>
+      <handconfig extfidir="l"/>
+      <handconfig palmor="d"/>
+      <location_bodyarm contact="close" location="shoulders" second_location="shoulders" side="left_at"/>
+      <rpt_motion repetition="fromstart_several">
+        <directedmotion direction="d" size="small"/>
+      </rpt_motion>
+    </sign_manual>
+    <sign_manual both_hands="true" lr_symm="true">
+      <handconfig handshape="pinch12open"/>
+      <handconfig extfidir="ul" second_extfidir="u"/>
+      <handconfig palmor="d" second_palmor="dr"/>
+      <location_bodyarm location="shoulders"/>
+      <rpt_motion repetition="fromstart_several">
+        <circularmotion axis="i" size="small"/>
+      </rpt_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

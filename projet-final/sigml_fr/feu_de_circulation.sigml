@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="traffic_lights1">
+  <sign_manual>
+    <handconfig handshape="pinch12" specialfingers="23"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="u"/>
+    <location_bodyarm location="head" side="right_at"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger23spread" second_handshape="finger23" second_thumbpos="opposed" thumbpos="opposed"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

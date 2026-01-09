@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sigml>
+  <hns_sign gloss="z">
+    <hamnosys_nonmanual/>
+    <hamnosys_manual>
+      <!-- Forme : Index seul -->
+      <hamfinger2/>
+      <hamthumbacrossmod/>
+      
+      <!-- Orientation : Doigt pointé vers le spectateur (o) -->
+      <hamextfingero/>
+      <hampalml/> <!-- Paume vers la gauche généralement pour cette position -->
+      
+      <hamshouldertop/>
+      <hamrrat/>
+      
+      <!-- Mouvement Z -->
+      <hammover/>  <!-- Droite -->
+      <hammovedl/> <!-- Diagonale Bas-Gauche -->
+      <hammover/>  <!-- Droite -->
+    </hamnosys_manual>
+  </hns_sign>
+</sigml>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="recipe1">
+  <sign_manual>
+    <sign_manual>
+      <split_handconfig>
+        <handconfig handshape="pinch12open"/>
+        <handconfig handshape="flat" thumbpos="opposed"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="o" palmor="d"/>
+        <handconfig extfidir="o" palmor="r"/>
+      </split_handconfig>
+      <split_location>
+        <location_bodyarm location="shoulders"/>
+        <location_bodyarm location="chest" second_location="chest" side="left_at"/>
+      </split_location>
+      <rpt_motion repetition="fromstart">
+        <circularmotion axis="d" size="small"/>
+      </rpt_motion>
+    </sign_manual>
+    <sign_manual>
+      <handconfig handshape="flat"/>
+      <split_handconfig>
+        <handconfig extfidir="ol" palmor="d"/>
+        <handconfig extfidir="u" palmor="dr"/>
+      </split_handconfig>
+      <location_hand contact="touch" digits="3" location="tip">
+        <location_hand digits="2" location="side"/>
+      </location_hand>
+      <tgt_motion>
+        <directedmotion curve="u" direction="d"/>
+        <location_hand contact="touch" digits="3" location="midjoint">
+          <location_hand digits="2" location="side"/>
+        </location_hand>
+      </tgt_motion>
+      <tgt_motion>
+        <directedmotion curve="u" direction="d"/>
+        <location_hand contact="touch" digits="3" location="base">
+          <location_hand digits="2" location="side"/>
+        </location_hand>
+      </tgt_motion>
+      <tgt_motion>
+        <directedmotion curve="u" direction="d"/>
+        <location_hand contact="touch" location="palm">
+          <location_hand digits="2" location="side"/>
+        </location_hand>
+      </tgt_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

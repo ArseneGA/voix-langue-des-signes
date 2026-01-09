@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="salt1">
+  <sign_manual>
+    <handconfig handshape="pinch12open" mainbend="bent"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="d"/>
+    <rpt_motion repetition="fromstart">
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend2="dblbent" handshape="finger2345" thumbpos="opposed"/>
+      </tgt_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

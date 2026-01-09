@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Avatar Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding-top: 50px;
+        }
+        #etat-connexion {
+            color: orange;
+            font-weight: bold;
+        }
+        .avatar-box {
+            width: 400px;
+            height: 400px;
+            margin: 20px auto;
+            border: 5px solid #555;
+            border-radius: 20px;
+            background-color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s;
+        }
+        .avatar-box.actif {
+            background-color: #2e8b57; /* Vert quand ça marche */
+            border-color: #4caf50;
+            box-shadow: 0 0 20px #4caf50;
+        }
+        h1 { font-size: 50px; margin: 0; }
+        p { font-size: 20px; color: #ccc; }
+    </style>
+</head>
+<body>
+
+    <h2>🤖 MON AVATAR (Simulateur)</h2>
+    <div id="etat-connexion">🔴 Déconnecté du cerveau Java</div>
+
+    <div id="boite-avatar" class="avatar-box">
+        <h1 id="emoji">😴</h1>
+        <p id="texte-signe">J'attends un ordre...</p>
+    </div>
+
+    <script>
+        var socket;
+
+        function connect() {
+            // On se connecte au serveur Java sur le port 8887
+            socket = new WebSocket("ws://localhost:8887");
+
+            // 1. Quand la connexion réussit
+            socket.onopen = function() {
+                document.getElementById("etat-connexion").innerHTML = "🟢 Connecté au cerveau Java !";
+                document.getElementById("etat-connexion").style.color = "lightgreen";
+            };
+
+            // 2. Quand Java envoie un message (le nom du fichier)
+            socket.onmessage = function(event) {
+                var message = event.data; // ex: "Accept1n.LSF.sigml"
+                console.log("Reçu : " + message);
+                
+                // On met à jour l'affichage
+                afficherSigne(message);
+            };
+
+            // 3. Quand ça coupe
+            socket.onclose = function() {
+                document.getElementById("etat-connexion").innerHTML = "🔴 Déconnecté (Relance Java)";
+                document.getElementById("etat-connexion").style.color = "orange";
+                // On réessaie de se connecter toutes les 3 secondes
+                setTimeout(connect, 3000);
+            };
+        }
+
+        function afficherSigne(nomFichier) {
+            var boite = document.getElementById("boite-avatar");
+            var emoji = document.getElementById("emoji");
+            var texte = document.getElementById("texte-signe");
+
+            // Animation visuelle
+            boite.classList.add("actif");
+            emoji.innerHTML = "🖐️"; 
+            texte.innerHTML = "Je joue le signe : <br><strong>" + nomFichier + "</strong>";
+
+            // Après 2 secondes, on remet au repos
+            setTimeout(function() {
+                boite.classList.remove("actif");
+                emoji.innerHTML = "🙂";
+                texte.innerHTML = "Prêt pour le suivant";
+            }, 3000);
+        }
+
+        // Démarrage
+        connect();
+    </script>
+
+</body>
+</html>

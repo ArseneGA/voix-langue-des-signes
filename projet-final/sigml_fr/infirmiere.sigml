@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="nurse1">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="fist" thumbpos="out"/>
+      <handconfig handshape="fist" thumbpos="across"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="l" palmor="d"/>
+      <handconfig extfidir="r" palmor="d"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm contact="touch" location="upperarm">
+        <location_hand digits="1" location="tip"/>
+      </location_bodyarm>
+      <location_bodyarm contact="touch" location="belowstomach" side="right_at"/>
+    </split_location>
+    <directedmotion direction="d" size="small"/>
+    <directedmotion direction="ur" size="small"/>
+    <directedmotion direction="l" size="small"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>
