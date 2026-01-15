@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sigml>
+    <hns_sign gloss="y">
+        <hamnosys_nonmanual/>
+        <hamnosys_manual>
+            <!-- Votre forme de main -->
+            <hamfinger2/>
+            <hamthumboutmod/>
+            <hampinky/>
+            
+            <!-- Orientation Face Spectateur -->
+            <hamextfingeru/>
+            <hampalmd/>
+        </hamnosys_manual>
+    </hns_sign>
+</sigml>

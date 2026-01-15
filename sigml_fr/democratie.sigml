@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="democracy1">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="pinch12open" specialfingers="345"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="touch" location="shoulders">
+      <location_hand digits="3" location="tip"/>
+    </location_bodyarm>
+    <par_motion>
+      <directedmotion direction="or"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig palmor="d"/>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

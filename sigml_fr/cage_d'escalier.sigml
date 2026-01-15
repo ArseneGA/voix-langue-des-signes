@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="staircase1">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" mainbend="hooked" thumbpos="opposed"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <split_location>
+      <location_hand contact="touch" digits="2" location="side">
+        <location_hand digits="2" location="side"/>
+      </location_hand>
+      <location_bodyarm location="shoulders"/>
+    </split_location>
+    <par_motion>
+      <directedmotion curve="r" direction="o"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig palmor="u"/>
+      </tgt_motion>
+    </par_motion>
+    <split_motion>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig handshape="finger23spread" mainbend="hooked" thumbpos="across"/>
+        <handconfig extfidir="ol" palmor="d"/>
+        <location_bodyarm location="chest"/>
+      </tgt_motion>
+      <par_motion>
+        <directedmotion direction="l"/>
+        <directedmotion direction="r"/>
+      </par_motion>
+    </split_motion>
+    <split_motion>
+      <par_motion>
+        <directedmotion direction="u" size="big"/>
+        <circularmotion axis="u"/>
+        <fingerplay/>
+      </par_motion>
+      <par_motion>
+        <directedmotion direction="l"/>
+        <directedmotion direction="r"/>
+      </par_motion>
+    </split_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

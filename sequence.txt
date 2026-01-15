@@ -1,0 +1,10 @@
+TEXT: Je ne vais pas à Paris demain
+TOKENS: ['je', 'vais', 'pas', 'a', 'paris', 'demain']
+META: {'negation': 'ne...pas'}
+STEPS:
+ - SIGN	me1.sigml	(raw=je)
+ - SPELL	vais	(raw=vais)
+ - SPELL	pas	(raw=pas)
+ - SPELL	a	(raw=a)
+ - SIGN	Paris1.sigml	(raw=paris)
+ - SIGN	tomorrow1.sigml	(raw=demain)

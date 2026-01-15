@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="oven1">
+  <sign_manual>
+    <handconfig handshape="flat"/>
+    <split_handconfig>
+      <handconfig extfidir="o" palmor="u"/>
+      <handconfig extfidir="r" palmor="d"/>
+    </split_handconfig>
+    <directedmotion direction="l" size="big"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

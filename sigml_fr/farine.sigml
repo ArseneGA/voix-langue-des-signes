@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="flour1">
+  <sign_manual>
+    <handconfig handshape="pinchall" mainbend="bent"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="shoulders" side="right_at"/>
+    <rpt_motion repetition="fromstart">
+      <par_motion>
+        <circularmotion axis="u" size="small" slow="true"/>
+        <wristmotion motion="twisting"/>
+      </par_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

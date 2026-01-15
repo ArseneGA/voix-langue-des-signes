@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="government1">
+  <sign_manual both_hands="true">
+    <handconfig handshape="finger2" thumbpos="across"/>
+    <handconfig extfidir="d"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="close" location="chest"/>
+    <directedmotion direction="d" fast="true"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

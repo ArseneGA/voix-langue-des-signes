@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="turn_on1">
+  <sign_manual>
+    <handconfig handshape="fist" thumbpos="across"/>
+    <handconfig extfidir="ol"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="headtop" side="right_at"/>
+    <tgt_motion>
+      <changeposture/>
+      <handconfig handshape="finger2345" thumbpos="out"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

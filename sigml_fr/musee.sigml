@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="museum1">
+  <sign_manual>
+    <handconfig handshape="fist" thumbpos="out"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm contact="touch" location="forehead">
+      <location_hand digits="1" location="tip"/>
+    </location_bodyarm>
+    <tgt_motion>
+      <directedmotion direction="d"/>
+      <location_bodyarm contact="touch" location="nose">
+        <location_hand digits="1" location="tip"/>
+      </location_bodyarm>
+    </tgt_motion>
+    <tgt_motion>
+      <directedmotion direction="d"/>
+      <location_bodyarm contact="touch" location="chin">
+        <location_hand digits="1" location="tip"/>
+      </location_bodyarm>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

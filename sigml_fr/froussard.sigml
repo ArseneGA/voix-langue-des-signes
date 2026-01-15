@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="coward1">
+  <sign_manual>
+    <sign_manual>
+      <handconfig handshape="finger2" mainbend="round" thumbpos="out"/>
+      <handconfig extfidir="ur"/>
+      <handconfig palmor="l"/>
+      <location_bodyarm contact="close" location="shouldertop" side="right_at"/>
+      <directedmotion direction="d"/>
+    </sign_manual>
+    <sign_manual>
+      <handconfig handshape="flat" second_handshape="flat" second_mainbend="bent" second_thumbpos="opposed" thumbpos="opposed"/>
+      <handconfig extfidir="o"/>
+      <handconfig palmor="u"/>
+      <location_bodyarm location="shoulders" side="right_at"/>
+      <rpt_motion repetition="fromstart">
+        <tgt_motion>
+          <changeposture/>
+          <handconfig handshape="flat" mainbend="bent" thumbpos="opposed"/>
+          <handconfig extfidir="o" palmor="u"/>
+          <location_bodyarm location="shoulders" side="right_at"/>
+        </tgt_motion>
+      </rpt_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

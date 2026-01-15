@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="step_on_smth1">
+  <sign_manual>
+    <sign_manual>
+      <handconfig handshape="finger23spread" mainbend="round" second_handshape="finger23spread" second_thumbpos="across" thumbpos="across"/>
+      <handconfig extfidir="ol" second_extfidir="do"/>
+      <handconfig palmor="d"/>
+      <par_motion>
+        <directedmotion direction="ol" size="small"/>
+        <fingerplay/>
+      </par_motion>
+    </sign_manual>
+    <sign_manual>
+      <handconfig handshape="flat" thumbpos="out"/>
+      <split_handconfig>
+        <handconfig extfidir="ol" palmor="d"/>
+        <handconfig extfidir="o" palmor="d"/>
+      </split_handconfig>
+      <split_location>
+        <location_bodyarm location="shoulders"/>
+        <location_bodyarm location="chest"/>
+      </split_location>
+      <tgt_motion>
+        <directedmotion direction="d"/>
+        <location_hand contact="touch" location="handback">
+          <location_hand digits="3" location="nail" side="palmar"/>
+        </location_hand>
+      </tgt_motion>
+    </sign_manual>
+    <sign_manual>
+      <split_handconfig>
+        <handconfig handshape="finger2" thumbpos="across"/>
+        <handconfig handshape="finger2" thumbpos="across"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="ol" palmor="d"/>
+        <handconfig extfidir="or" palmor="d"/>
+      </split_handconfig>
+      <handconstellation contact="touch">
+        <location_bodyarm location="shoulders"/>
+      </handconstellation>
+      <rpt_motion repetition="fromstart_several">
+        <circularmotion axis="i" size="small"/>
+      </rpt_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

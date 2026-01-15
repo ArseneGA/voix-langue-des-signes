@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="park1">
+  <sign_manual>
+    <handconfig handshape="flat"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="d"/>
+    <split_location>
+      <location_bodyarm contact="close" location="chest" side="right_at"/>
+      <location_bodyarm contact="armextended" location="chest"/>
+    </split_location>
+    <directedmotion curve="r" direction="o"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>
