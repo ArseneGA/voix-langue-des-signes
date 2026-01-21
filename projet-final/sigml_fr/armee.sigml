@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="army1">
+  <sign_manual>
+    <sign_manual both_hands="true">
+      <handconfig handshape="finger2345" thumbpos="out"/>
+      <handconfig extfidir="ol"/>
+      <handconfig palmor="d"/>
+      <split_location>
+        <location_bodyarm contact="close" location="chest"/>
+        <location_bodyarm location="chest" side="left_at"/>
+      </split_location>
+      <directedmotion direction="ol" ellipse_direction="v" zigzag_style="zigzag"/>
+    </sign_manual>
+    <sign_manual both_hands="true">
+      <split_handconfig>
+        <handconfig handshape="fist" thumbpos="opposed"/>
+        <handconfig handshape="fist" thumbpos="opposed"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="l" palmor="l"/>
+        <handconfig extfidir="r" palmor="r"/>
+      </split_handconfig>
+      <split_location>
+        <location_bodyarm location="shoulders" side="right_at"/>
+        <location_bodyarm location="chest" side="right_at"/>
+      </split_location>
+      <rpt_motion repetition="fromstart_several">
+        <directedmotion direction="i" size="small"/>
+      </rpt_motion>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

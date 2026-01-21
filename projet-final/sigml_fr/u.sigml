@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="u">
+  <sign_manual>
+    <!-- 1. FORME DE MAIN : U (finger23) -->
+    <!-- thumbpos="across" pour replier le pouce sur l'annulaire et l'auriculaire -->
+    <!-- finger23 par défaut implique que les doigts sont joints (nonspread) -->
+    <handconfig handshape="finger23" thumbpos="across"/>
+    
+    <!-- 2. ORIENTATION -->
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/> <!-- Paume vers spectateur sur cet avatar -->
+    
+    <location_bodyarm location="shouldertop" side="right_beside"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

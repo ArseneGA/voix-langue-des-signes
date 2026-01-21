@@ -1,0 +1,28 @@
+# Monorepo .gitignore: ignore les fichiers/dossiers build/temp pour chaque sous-package
+
+# player-sigml
+player-sigml/node_modules/
+player-sigml/dist/
+player-sigml/*.log
+player-sigml/.DS_Store
+player-sigml/.env
+player-sigml/.vscode/
+player-sigml/*.tsbuildinfo
+
+# speech-to-text
+speech-to-text/node_modules/
+speech-to-text/dist/
+speech-to-text/*.log
+speech-to-text/.DS_Store
+speech-to-text/.env
+speech-to-text/.vscode/
+speech-to-text/*.tsbuildinfo
+
+# traduction-sigml
+traduction-sigml/node_modules/
+traduction-sigml/dist/
+traduction-sigml/*.log
+traduction-sigml/.DS_Store
+traduction-sigml/.env
+traduction-sigml/.vscode/
+traduction-sigml/*.tsbuildinfo

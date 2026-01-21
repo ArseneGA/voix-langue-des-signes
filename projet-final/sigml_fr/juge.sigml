@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="judge1">
+  <sign_manual both_hands="true" lr_symm="true" ud_symm="true">
+    <handconfig handshape="pinch12open"/>
+    <handconfig extfidir="ol"/>
+    <handconfig palmor="l"/>
+    <split_location>
+      <location_bodyarm location="shoulders" side="right_at"/>
+      <location_bodyarm location="chest" side="left_at"/>
+    </split_location>
+    <directedmotion direction="d"/>
+    <rpt_motion repetition="fromstart_several">
+      <directedmotion direction="u"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

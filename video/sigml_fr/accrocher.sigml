@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="hang1">
+  <sign_manual>
+    <sign_manual>
+      <split_handconfig>
+        <handconfig handshape="finger2" thumbpos="across"/>
+        <handconfig handshape="finger2" thumbpos="across"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="u" palmor="d"/>
+        <handconfig extfidir="r" palmor="d"/>
+      </split_handconfig>
+      <split_location>
+        <location_bodyarm contact="close" location="shoulders" side="right_at"/>
+        <location_bodyarm location="chest"/>
+      </split_location>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig handshape="finger2" mainbend="hooked" thumbpos="across"/>
+        <handconfig extfidir="d" palmor="d"/>
+        <handconstellation contact="touch">
+          <location_hand digits="2" location="midjoint" side="palmar"/>
+          <location_hand digits="2" location="nail" side="palmar"/>
+        </handconstellation>
+      </tgt_motion>
+    </sign_manual>
+    <sign_manual both_hands="true" lr_symm="true">
+      <split_handconfig>
+        <handconfig handshape="finger2" mainbend="hooked" thumbpos="across"/>
+        <handconfig handshape="finger2" mainbend="hooked" thumbpos="across"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="d" palmor="d"/>
+        <handconfig extfidir="r" palmor="d"/>
+      </split_handconfig>
+      <handconstellation contact="touch">
+        <location_hand digits="2" location="midjoint"/>
+        <location_hand digits="2" location="nail" side="palmar"/>
+      </handconstellation>
+      <directedmotion direction="u"/>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

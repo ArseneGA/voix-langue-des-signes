@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="gymnastics1">
+  <sign_manual both_hands="true" lr_symm="true" oi_symm="true">
+    <handconfig handshape="fist" thumbpos="across"/>
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <split_location>
+      <location_bodyarm location="chin"/>
+      <location_bodyarm location="chin"/>
+    </split_location>
+    <rpt_motion repetition="fromstart_several">
+      <circularmotion axis="i" size="small"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

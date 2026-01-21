@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="i_manuel">
+  <sign_manual>
+    <!-- Main ouverte (2345) -->
+    <!-- On plie Index(2), Majeur(3), Annulaire(4) -->
+    <!-- Pouce (1) plié -->
+    <!-- Reste Auriculaire (5) levé -->
+    <handconfig handshape="finger2345" thumbpos="across" bend2="bent" bend3="bent" bend4="bent"/>
+    
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm location="chest"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

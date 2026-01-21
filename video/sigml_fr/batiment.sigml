@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="building1">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="cee12"/>
+    <handconfig extfidir="o"/>
+    <handconfig palmor="l"/>
+    <location_bodyarm location="chest"/>
+    <tgt_motion>
+      <directedmotion direction="u" tense="true"/>
+      <location_bodyarm location="neck"/>
+    </tgt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

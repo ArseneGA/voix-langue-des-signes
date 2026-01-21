@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="q">
+  <sign_manual>
+    <!-- 1. CONFIGURATION : Index seul (finger2) -->
+    <!-- thumbpos="across" : pouce fermé sur les autres doigts -->
+    <handconfig handshape="finger2" thumbpos="across"/>
+    
+    <!-- 2. DÉPART : Index vers le HAUT (comme un "1") -->
+    <!-- extfidir="u" = Up -->
+    <!-- palmor="d" = Paume vers le BAS (pour Q, la main est souvent pronée/horizontale au départ) -->
+    <!-- OU palmor="l" (vers soi) si on veut faire comme le P -->
+    <!-- Pour un Q classique, la paume est souvent vers le bas/sol -->
+    <handconfig extfidir="do" second_extfidir="o"/> 
+    <handconfig palmor="d"/>
+    <location_bodyarm location="chest" side="right_at"/>
+
+    <!-- 3. MOUVEMENT : Petit coup sec vers le bas -->
+    <!-- Le Q est souvent un petit mouvement descendant de l'index qui pointe déjà un peu vers le bas -->
+    <tgt_motion>
+      <changeposture/>
+      <!-- On accentue la direction vers le sol -->
+      <handconfig extfidir="d"/> 
+      <!-- On garde la paume vers le bas -->
+      <handconfig palmor="d"/>
+    </tgt_motion>
+    
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

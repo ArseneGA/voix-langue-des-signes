@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="k">
+  <sign_manual>
+    <!-- Index et Majeur levés écartés (V), mais pouce sur le majeur -->
+    <!-- thumbpos="out" met le pouce sur le côté, mais pour K il touche le majeur -->
+    <!-- Essayons 'finger23spread' avec pouce spécifique -->
+    <handconfig handshape="finger23spread" thumbpos="across"/>
+    <!-- Note: HamNoSys n'a pas toujours de code parfait pour "pouce sur jointure du majeur" -->
+    <!-- Une alternative est 'finger23spread' et main orientée -->
+    
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    
+    <location_bodyarm location="chest"/>
+    
+    <!-- Petit mouvement caractéristique du K (optionnel mais courant) -->
+    <!-- Souvent un petit mouvement sec vers le haut ou l'avant -->
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

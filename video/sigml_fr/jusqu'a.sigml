@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="until1">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="finger2" specialfingers="5" thumbpos="across"/>
+      <handconfig handshape="flat" thumbpos="out"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l"/>
+      <handconfig extfidir="or" palmor="ur"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm location="head" side="right_at"/>
+      <location_bodyarm location="chest"/>
+    </split_location>
+    <par_motion>
+      <directedmotion direction="d"/>
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ol" palmor="l" second_extfidir="u"/>
+        <handconstellation contact="touch">
+          <location_hand location="palm"/>
+          <location_hand digits="5" location="base"/>
+        </handconstellation>
+      </tgt_motion>
+    </par_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

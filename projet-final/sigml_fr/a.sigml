@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sigml>
+
+  <hns_sign gloss="a">
+    <hamnosys_manual>
+      <!-- Poing fermé, pouce en travers, paume vers l'avant, devant la poitrine -->
+      <hamfist/> <hamthumbacrossmod/>
+      <hamextfingerol/> <hampalml/>
+      <hamchest/>
+      <!-- Signe tenu sans mouvement particulier -->
+    </hamnosys_manual>
+  </hns_sign>
+
+</sigml>

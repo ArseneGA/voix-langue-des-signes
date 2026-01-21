@@ -1,0 +1,30 @@
+{
+  "name": "player-sigml",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/three": "^0.181.0",
+    "@xmldom/xmldom": "^0.9.5",
+    "three": "^0.181.1",
+    "vite": "^7.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.3"
+  }
+}

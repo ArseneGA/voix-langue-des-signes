@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="r_fake">
+  <sign_manual>
+    <!-- Test : Forme "N crochu" au lieu de "R croisé" -->
+    <handconfig handshape="finger23" thumbpos="across"/>
+    <!-- PAS DE HAMCROSS ICI pour tester l'orientation -->
+    
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/> <!-- Orientation du F -->
+    <location_bodyarm location="chest"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

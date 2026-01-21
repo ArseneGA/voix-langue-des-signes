@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="truck1">
+  <sign_manual>
+    <handconfig handshape="ceeall"/>
+    <split_handconfig>
+      <handconfig extfidir="u" palmor="l" second_extfidir="ul" second_palmor="dr"/>
+      <handconfig extfidir="u" palmor="r" second_extfidir="ur" second_palmor="dl"/>
+    </split_handconfig>
+    <split_location>
+      <location_hand contact="touch" digits="2" location="midjoint">
+        <location_hand digits="5" location="midjoint"/>
+      </location_hand>
+      <location_bodyarm location="neck" side="right_at"/>
+    </split_location>
+    <directedmotion direction="i"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

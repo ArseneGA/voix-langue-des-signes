@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="policeman1">
+  <sign_manual>
+    <handconfig handshape="finger2" thumbpos="out"/>
+    <handconfig extfidir="l"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="touch" location="shoulders" second_location="shoulders" second_side="left_at">
+      <location_hand digits="1" location="tip"/>
+    </location_bodyarm>
+    <rpt_motion repetition="fromstart">
+      <tgt_motion>
+        <changeposture/>
+        <handconfig bend2="round" handshape="finger2" second_handshape="finger2" second_thumbpos="out" thumbpos="out"/>
+      </tgt_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

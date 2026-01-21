@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="football1">
+  <sign_manual>
+    <split_handconfig>
+      <handconfig handshape="fist" thumbpos="across"/>
+      <handconfig handshape="flat"/>
+    </split_handconfig>
+    <split_handconfig>
+      <handconfig extfidir="d" palmor="d"/>
+      <handconfig extfidir="or" palmor="d"/>
+    </split_handconfig>
+    <split_location>
+      <location_bodyarm contact="close" location="stomach"/>
+      <location_bodyarm location="chest"/>
+    </split_location>
+    <rpt_motion repetition="fromstart_several">
+      <tgt_motion>
+        <changeposture/>
+        <handconfig extfidir="ol"/>
+        <handconstellation contact="touch">
+          <location_hand location="palm"/>
+          <location_hand location="handback"/>
+        </handconstellation>
+      </tgt_motion>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

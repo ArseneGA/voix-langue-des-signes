@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="l">
+  <sign_manual>
+    <!-- Index levé (finger2) et Pouce ouvert (thumbpos=out) -->
+    <handconfig handshape="finger2" thumbpos="out"/>
+    
+    <!-- Orientation : Doigt vers le haut, Paume vers spectateur -->
+    <handconfig extfidir="u"/>
+    <handconfig palmor="d"/>
+    
+    <location_bodyarm location="chest"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="clothes1">
+  <sign_manual both_hands="true" lr_symm="true">
+    <handconfig handshape="finger2345" thumbpos="out"/>
+    <handconfig extfidir="ul" second_extfidir="l"/>
+    <handconfig palmor="d"/>
+    <location_bodyarm contact="touch" location="chest" second_location="shoulders" second_side="right_at" side="right_at"/>
+    <rpt_motion repetition="fromstart_several">
+      <circularmotion axis="r" size="small"/>
+    </rpt_motion>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

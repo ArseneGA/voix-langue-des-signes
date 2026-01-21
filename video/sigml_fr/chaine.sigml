@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="chain1">
+  <sign_manual>
+    <sign_manual>
+      <split_handconfig>
+        <handconfig handshape="pinch12open"/>
+        <handconfig handshape="pinch12open"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="u" palmor="l"/>
+        <handconfig extfidir="o" palmor="r"/>
+      </split_handconfig>
+      <handconstellation contact="touch">
+        <location_hand digits="1" location="nail" side="palmar"/>
+        <location_hand digits="1" location="nail" side="palmar"/>
+      </handconstellation>
+    </sign_manual>
+    <sign_manual>
+      <split_handconfig>
+        <handconfig handshape="ceeall"/>
+        <handconfig handshape="ceeall"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="uo" palmor="l"/>
+        <handconfig extfidir="uo" palmor="r"/>
+      </split_handconfig>
+      <handconstellation contact="close">
+        <location_hand digits="1" location="nail" side="palmar"/>
+        <location_hand digits="1" location="nail" side="palmar"/>
+        <location_bodyarm location="chest"/>
+      </handconstellation>
+    </sign_manual>
+    <sign_manual>
+      <split_handconfig>
+        <handconfig handshape="pinch12open"/>
+        <handconfig handshape="pinch12open"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="o" palmor="l"/>
+        <handconfig extfidir="u" palmor="r"/>
+      </split_handconfig>
+      <handconstellation contact="touch">
+        <location_hand digits="1" location="nail" side="palmar"/>
+        <location_hand digits="1" location="nail" side="palmar"/>
+        <location_bodyarm location="chest" side="right_at"/>
+      </handconstellation>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

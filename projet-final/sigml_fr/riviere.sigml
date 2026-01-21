@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="river1">
+  <sign_manual both_hands="true">
+    <handconfig contactkind="nail" contactpair="23" handshape="finger23" thumbpos="across"/>
+    <handconfig extfidir="do"/>
+    <handconfig palmor="d"/>
+    <directedmotion direction="o" size="big" slow="true" zigzag_style="wavy"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="size1">
+  <sign_manual>
+    <sign_manual both_hands="true" lr_symm="true" ud_symm="true">
+      <split_handconfig>
+        <handconfig handshape="pinch12open" mainbend="bent"/>
+        <handconfig handshape="pinch12open" mainbend="bent"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="u" palmor="l"/>
+        <handconfig extfidir="o" palmor="r"/>
+      </split_handconfig>
+      <handconstellation contact="touch">
+        <location_hand digits="2" location="tip"/>
+        <location_hand digits="2" location="nail" side="palmar"/>
+        <location_bodyarm location="shoulders"/>
+      </handconstellation>
+      <directedmotion direction="u" size="small"/>
+    </sign_manual>
+    <sign_manual both_hands="true" lr_symm="true" ud_symm="true">
+      <split_handconfig>
+        <handconfig handshape="pinch12open" mainbend="bent"/>
+        <handconfig handshape="pinch12open" mainbend="bent"/>
+      </split_handconfig>
+      <split_handconfig>
+        <handconfig extfidir="u" palmor="l"/>
+        <handconfig extfidir="o" palmor="r"/>
+      </split_handconfig>
+      <handconstellation contact="touch">
+        <location_hand digits="2" location="tip"/>
+        <location_hand digits="2" location="nail" side="palmar"/>
+        <location_bodyarm location="shoulders"/>
+      </handconstellation>
+      <directedmotion direction="r" size="small"/>
+    </sign_manual>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>

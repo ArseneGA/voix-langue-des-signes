@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sigml SYSTEM "http://www.visicast.cmp.uea.ac.uk/sigml/sigml.dtd">
+<sigml>
+
+<hamgestural_sign gloss="m">
+  <sign_manual>
+    <!-- Forme : Main plate, pouce replié -->
+    <handconfig handshape="flat" thumbpos="across"/>
+    
+    <!-- Orientation : Doigts vers le BAS (d = down) -->
+    <handconfig extfidir="l"/>
+    
+    <!-- Orientation : Paume vers SOI (l = left, pour une main droite) -->
+    <!-- En HamNoSys, 'l' avec doigts vers le bas met la paume vers le corps -->
+    <handconfig palmor="l"/>
+    
+    <!-- Position : Devant la poitrine -->
+    <location_bodyarm location="chest"/>
+  </sign_manual>
+</hamgestural_sign>
+
+</sigml>
